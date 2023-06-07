@@ -1,0 +1,16 @@
+** README FILE **
+
+To test on any image run the "GUI.py" file and select the input image and output directory of the image.
+The output Image will be saved as 'output.png' in the provided directory.
+Datase used for training can be downloaded from: "https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery"
+
+Files in the Folder and description:
+
+1. README.txt :- Contains details about all the files and folders
+2. GUI.py :- Python File to be run for selecting input test images and output directory and generating segmentation predictions on input test images.
+3. run_model.py :- Python File for lading the trained model and predicting on test image
+4. train.py :- Python file used for training the model
+5. U-Net.hdf5 :- Trained model saved as '.hdf5' files
+6. Outputs Folder :- Folder contains 20 images, each image has 3 images plotted: Image in the left is the Testing Image (satellite image), Image in the Middle is the Testing output, Image in the right is the prediction using the model.
+7. Test Folder :- Contains 10 Images of 5 pairs (Input Image Format: 'Input_{index}.jpg', Prediction Format: 'Prediction_{index}.png'). These can be used to replicate and compare the results.
+8. Presentation.pptx :- Presentation of Programmning Assignment
